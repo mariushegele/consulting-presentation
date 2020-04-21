@@ -1,0 +1,234 @@
+%!TEX root = ../../main.tex
+
+\begin{frame}[plain]
+	\section{Satz 2: Ramsey-Zahlen}
+\end{frame}
+
+\nocite{AmericanMathematicalSociety1979, Alon2008}
+
+\begin{frame}[fragile]{Gute und schlechte Parties}
+
+\textcolor{mLightBrown}{Freunde}
+
+\textcolor{mLightGreen}{Fremde}
+
+\begin{columns}[T,onlytextwidth]
+
+\column{0.25\textwidth}
+
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+ graph k3none {
+    a -- b [color=mLightGreen];
+    b -- c [color=mLightGreen];
+    a -- c [color=mLightGreen];
+  }
+\end{dot2tex}  
+
+\column{0.25\textwidth}
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+ graph k3one {
+    a -- b [color=mLightBrown];
+    b -- c [color=mLightGreen];
+    a -- c [color=mLightGreen];
+  }
+\end{dot2tex}  
+
+\column{0.25\textwidth}
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+ graph k3two {
+    a -- b [color=mLightBrown];
+    b -- c [color=mLightBrown];
+    a -- c [color=mLightGreen];
+  }
+\end{dot2tex}  
+      
+\column{0.25\textwidth}
+
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+ graph k3full {
+    a -- b [color=mLightBrown];
+    b -- c [color=mLightBrown];
+    a -- c [color=mLightBrown];
+  }
+\end{dot2tex}  
+
+\end{columns}
+      
+\end{frame}
+
+\begin{frame}[fragile]{Wie viele sollte ich einladen?}
+
+
+\begin{columns}[T,onlytextwidth]
+
+\column{0.6\textwidth}
+\vspace{6mm}
+
+... damit sich 
+
+stets mindestens 3 gegenseitig kennen 
+
+oder 
+
+mindestens 3 gegenseitig nicht kennen?
+
+\vspace{6mm}
+
+\onslide<2->{
+Die Ramsey Zahl $R(3,3) = 5$ besagt, dass
+für alle $N > 5: \exists$ ein einfarbiger $K_3 \subset K_N$.
+}
+
+\vspace{6mm}
+
+\onslide<3->{
+\textit{Beweis.}
+}
+
+\column{0.4\textwidth}
+\begin{center}
+
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+graph k5 {
+    a -- b [color=mLightGreen];
+    a -- c [color=mLightBrown];
+    a -- d [color=mLightBrown];
+    a -- e [color=mLightGreen];
+    b -- c [color=mLightBrown];
+    b -- d [color=mLightGreen];
+    b -- e [color=mLightBrown];
+    c -- d [color=mLightGreen];
+    c -- e [color=mLightGreen];
+    d -- e [color=mLightBrown];
+}
+\end{dot2tex}
+
+\vspace{6mm}
+
+\begin{dot2tex}[neato,mathmode,graphstyle={scale=0.7}]
+graph k6 {
+    a -- b [color=mLightGreen];
+    b -- c [color=mLightBrown];
+    c -- d [color=mLightGreen];
+    d -- e [color=mLightBrown];
+    e -- f  [color=mLightGreen];
+    a -- f  [color=mLightBrown];
+    a -- c [color=mLightBrown];
+    a -- d [color=mLightGreen];
+    a -- e [color=mLightGreen];
+    b -- d [color=mLightGreen];
+    b -- e [color=mLightBrown];
+    b -- f [color=mLightGreen];
+    c -- e [color=mLightGreen];
+    c -- f [color=mLightGreen];
+    d -- f [color=mLightBrown];
+}
+\end{dot2tex}
+
+
+
+\end{center}
+
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Ramsey-Zahlen}
+
+	\begin{definition}[Ramsey-Zahl $R(o, g)$]
+		\vspace{0.25cm}
+		Man betrachte vollständige Graphen, die in den Farben orange und grün gefärbt ist. Die Ramsey-Zahl $R(o, g)$ ist das kleinste $n$, sodass für alle zwei-gefärbten $K_n$ gilt, dass eine orange Clique (vollständiger Teilgraph) $K_o$ oder eine grüne Clique $K_g$ existiert.
+	\end{definition}
+
+\end{frame}
+
+
+\begin{frame}{Bekannte Ramsey-Zahlen}
+
+Was ist das höchste $k$, sodass $R(k,k)$ bekannt ist?
+
+
+\begin{itemize}
+\item<2-> {$R(4,4) =18$}
+\item<3-> {$43 \leq R(5,5) \leq 48$}
+\end{itemize}
+
+
+\onslide<4->{
+Warum? Ein Graph mit $m = \binom{43}{2} = 903$ Kanten hat $2^{903}$ mögliche Zwei-Färbungen. 
+
+Die Komplexität der Bestimmung von Ramsey-Zahlen ist unbekannt \cite[p. 13]{Haanpaa2000}.
+}
+
+\end{frame}
+
+
+\begin{frame}{Erdős: Eine untere Schranke}
+
+\onslide<1->{
+	\begin{framed}
+		\begin{satz}
+			Sei $k \geq 2$. Dann gilt $R(k,k) \geq 2^{\frac{k}{2}}$.
+		\end{satz}
+	\end{framed}
+
+}
+
+\onslide<2->{
+\textit{Beweis.}
+}
+
+\only<2-3>{
+Mithilfe der probabilistischen Methode: Färbe jede Kante zufällig und unabhängig mit gleicher Wahrscheinlichkeit $p_O = p_G = \frac{1}{2}$. 
+
+$\Rightarrow 2^{\binom{N}{2}}$ mögliche Färbungen mit je gleicher Wahrscheinlichkeit $2^{-\binom{N}{2}}$.
+}
+
+\only<3-4>{
+Nehme zufälligen Teilgraph $A$ der Größe $k$.
+\begin{align}
+\begin{split}
+P(A \text{ ist einfarbig}) & = P(A \text{ ist ganz grün}) + P(A \text{ ist ganz orange})  \\
+& = 2 \cdot P\left(\bigcup_{|A_G| = k} A_G\right) \le 2 \cdot \binom{N}{k} \cdot 2^{-\binom{k}{2}}
+\end{split}
+\end{align}
+}
+
+\only<4>{
+Für $k \geq 2$ gilt \cite[p. 13]{Aigner2010}
+\begin{equation}
+\binom{N}{k} \leq \frac{N^k}{2^{k-1}}
+\end{equation}
+}
+
+\onslide<5->{
+Es gilt also $P(A \text{ ist einfarbig}) < 1$ für $N < 2^{\frac{k}{2}}$. 
+
+Das heißt nach der probabilistischen Methode es muss eine Graphenfärbung ohne orangen oder grünen $K_k$ geben.
+
+\hspace*{10mm} $\Rightarrow R(k,k) \geq 2^{\frac{k}{2}}$
+
+\begin{flushright}
+$\qed$
+\end{flushright}
+
+}
+
+\end{frame}
+
+\begin{frame}{Bekannte Ramsey-Zahlen}
+
+\begin{table}
+\centering
+\resizebox{\linewidth}{!}{% Resize table to fit within \linewidth horizontally
+\input{content/main/ramsey_numbers.tex}
+}
+\caption{Bekannte Werte oder Grenzen für Ramsey-Zahlen\footnote{https://en.wikipedia.org/wiki/Ramsey\%27s\_theorem}}
+\end{table}
+
+\end{frame}
+
+
+
+
+
