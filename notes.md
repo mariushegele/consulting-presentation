@@ -89,6 +89,12 @@ four mantras: because behavior breeds behavior
                 - angry negotatiors with desire to be heard
                 - calming, softening, de-escalation
                 - helpful in mediation
+        
+        - Mimicry [Thompson2010 p. 500]
+            - people tend to engage in face, rubbin, foot shaking, smiling more in presence of other in that behavior
+            - behavioral mimicry increases liking and rapport
+            - mood contagion
+            - expression of liking: dominance complementaritiy: resp. with submissive and vice versa
         - study
             - gas station sale
             - only based on price impossible
@@ -136,6 +142,19 @@ four mantras: because behavior breeds behavior
 2. Respekt
     - eigene Grenzen kennen, auch die der Anderen respektieren
         - auch interkulturelle Aspekte beachten
+    - und Respekt zollen [McCarthy p. 16]
+        - zuerst eine Beziehung aufbauen, dann Fakten schaffen
+        - Vertrauen gewinnen
+            - [Thompson2010 p. 501]
+                - intention to accept vulnerability
+                - allows information excahnge
+                - allows for integrative agreements
+        - aufmerksam zuhören
+        - doesn't have to be about personal things
+            - sensitive to their perception, no emotions
+            - listen carefully, check your understanding
+            - be pragmatic
+        - Notizen nehmen [McCarthy p. 61]
     - sich selbst respektieren: Selbstbewusstsein
     - etwas erreichen wollen
         - um seiner selbst
@@ -175,24 +194,7 @@ four mantras: because behavior breeds behavior
         - [McCarth< p.38] thoughts are a two-way street: proprioceptive psychology – effects of your posture on your state of ming
             - Experiment: Leute for dem Computer bildschirm – horizontal und vertikal bewegende Teile
             - people smile when they're happy, but they're also happier because they smile
-    - und Respekt zollen [McCarthy p. 16]
-        - zuerst eine Beziehung aufbauen, dann Fakten schaffen
-        - Vertrauen gewinnen
-            - [Thompson2010 p. 501]
-                - intention to accept vulnerability
-                - allows information excahnge
-                - allows for integrative agreements
-        - aufmerksam zuhören
-        - doesn't have to be about personal things
-            - sensitive to their perception, no emotions
-            - listen carefully, check your understanding
-            - be pragmatic
-        - Notizen nehmen [McCarthy p. 61]
-        - Mimicry [Thompson2010 p. 500]
-            - people tend to engage in face, rubbin, foot shaking, smiling more in presence of other in that behavior
-            - behavioral mimicry increases liking and rapport
-            - mood contagion
-            - expression of liking: dominance complementaritiy: resp. with submissive and vice versa
+
 3. Persönliche Integrität
     - Ehrlichkeit
         - bei der Wahrheit bleiben
@@ -210,10 +212,10 @@ four mantras: because behavior breeds behavior
             - when do they lie: temptation, uncertaint + lack of power, anonymous victims
             - more economomical gain -> likelier to lie
             - bad for relationship (see Verhandlungsmoral)
-            - no threats
-                - percevied as more powerful, also as less coooperative -> lower integrative agreements
     - Zuverlässigkeit
     - gesellschaftlichen Regeln folgen
+            - no threats[Thompson2010 p. 501]
+                - percevied as more powerful, also as less coooperative -> lower integrative agreements
     - Vereinbarungen pünktlich einhalten
     - Pragmatismus [McCarthy p. 13]
         - don't get too emotional 
@@ -238,6 +240,7 @@ four mantras: because behavior breeds behavior
                 - most likely to captiliaze on joint interests
             - negative: no communal orientation: echange relationship
             - friends in organization improves salaray outcomes
+
 4. Fairness
     - Wünsche & Bedürfnisse der anderen Seite berücksichtigen
         - [FAZ] "es geht nicht um reale, sondern gefühlsmäßige Win-Win Situationen"
@@ -279,11 +282,6 @@ four mantras: because behavior breeds behavior
             - [Helmold 4.5.2]
                 - Argumente überzeugend ausssprechen
                 - "Wenn sie nichts zu sagen haben, reden sie nicht"
-        - [McCarthy 5.3] 
-            - very open, then closed questions
-            - actively listen
-            - repeat objectives, summarize, reassure
-            - Aufmerksam auf das achten, wie etwas gesagt wird
         - [McCarthy p. 58f] die sokratische Methode
             - vor Allem zu Beginn: offene Fragen stellen "Was ist Ihnen wichtig?"
             - Wenn Akzeptanz klarer wird:
@@ -293,6 +291,11 @@ four mantras: because behavior breeds behavior
                 - can be seen as trheat, insiunation
                 - "Surely you have the same ipression...?"
             - Viele offene Fragen, nur eine Frage nach der anderen, genug Zeit zum Antworten geben
+        - [McCarthy 5.3] 
+            - very open, then closed questions
+            - actively listen
+            - repeat objectives, summarize, reassure
+            - Aufmerksam auf das achten, wie etwas gesagt wird
     - Positives Denken [McCarthy p. 33ff]
         - attitude is respoinsible for brehavior
         - see opportunities, not problems
