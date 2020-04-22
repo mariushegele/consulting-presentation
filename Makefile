@@ -1,5 +1,5 @@
 .PHONY: all
-all: main.pdf
+all: final
 	open main.pdf
 
 final: main.pdf
